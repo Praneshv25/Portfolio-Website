@@ -1,0 +1,10 @@
+[
+    {
+        "role": "Software Engineering Intern",
+        "organization": "NASA",
+        "startDate": "June 2024",
+        "endDate": "Present",
+        "experiences": ["Worked on Google Maps", "reduced load time"],
+        "imageSrc": "history/nasa.png"
+    }
+]
