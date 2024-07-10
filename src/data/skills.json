@@ -1,10 +1,62 @@
 [
     {
+        "title": "Java",
+        "imgSrc": "skills/java.png"
+    },
+    {
+        "title": "C",
+        "imgSrc": "skills/C.png"
+    },
+    {
+        "title": "C++",
+        "imgSrc": "skills/C++.png"
+    },
+    {
+        "title": "JavaScript",
+        "imgSrc": "skills/JavaScript.png"
+    },
+    {
+        "title": "Python",
+        "imgSrc": "skills/python.png"
+    },
+    {
+        "title": "TypeScript",
+        "imgSrc": "skills/typeScript.png"
+    },
+    {
+        "title": "TensorFlow",
+        "imgSrc": "skills/TensorFlow.png"
+    },
+    {
+        "title": "OpenCV",
+        "imgSrc": "skills/OpenCV.png"
+    },
+    {
+        "title": "Mediapipe",
+        "imgSrc": "skills/mediapipe.png"
+    },
+    {
+        "title": "React",
+        "imgSrc": "skills/react.png"
+    },
+    {
+        "title": "Angular",
+        "imgSrc": "skills/Angular.png"
+    },
+    {
         "title": "HTML",
         "imgSrc": "skills/html.png"
     },
     {
         "title": "CSS",
         "imgSrc": "skills/css.png"
+    },
+    {
+        "title": "SQL",
+        "imgSrc": "skills/SQL.png"
+    },
+    {
+        "title": "R",
+        "imgSrc": "skills/R.png"
     }
 ]

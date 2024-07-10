@@ -4,7 +4,9 @@
         "organization": "NASA",
         "startDate": "June 2024",
         "endDate": "Present",
-        "experiences": ["Worked on Google Maps", "reduced load time"],
+        "experiences": ["Developed Python software to parse KML files and generate transition plans for the IceSAT-2 satellite",
+        "Utilized libraries such as Shapely and FastKML to automate processes, reducing two months of manual work to seconds",
+        "Enhanced data processing capabilities, resulting in a 95% reduction in manual data handling time"],
         "imageSrc": "history/nasa.png"
     }
 ]
