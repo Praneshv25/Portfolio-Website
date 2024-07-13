@@ -1,18 +1,50 @@
 [
     {
         "title": "Portfolio Website",
-        "imageSrc": "projects/project.png",
-        "description": "This website was made to display my skills and projects",
-        "skills": ["React", "CSS", "Vite"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "imageSrc": "projects/portfolio.png",
+        "description": "This website was made to display my skills, projects, and contact information. Designed to work responsively.",
+        "skills": ["React", "CSS", "Figma", "Vite"],
+        "demo": "",
+        "source": ""
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "title": "K-means Clustering",
+        "imageSrc": "projects/Kmeans.png",
+        "description": "Custom K-means clustering algorithm created to analyze NFL receivers.",
+        "skills": ["Jupyter Notebook", "Pandas", "Numpy"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/K-Means-Custering"
+    },
+    {
+        "title": "FRC Rankings Predictor",
+        "imageSrc": "projects/frc.jpg",
+        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
+        "skills": ["Java", "REST API"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
+    },
+    {
+        "title": "FRC Rankings Predictor",
+        "imageSrc": "projects/frc.jpg",
+        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
+        "skills": ["Java", "REST API"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
+    },
+    {
+        "title": "FRC Rankings Predictor",
+        "imageSrc": "projects/frc.jpg",
+        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
+        "skills": ["Java", "REST API"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
+    },
+    {
+        "title": "FRC Rankings Predictor",
+        "imageSrc": "projects/frc.jpg",
+        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
+        "skills": ["Java", "REST API"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
     }
 ]

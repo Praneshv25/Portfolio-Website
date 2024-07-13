@@ -8,12 +8,12 @@ export const Resume = () => {
         <h2 className={styles.title}>Resume</h2>
         <div className={styles.content}>
             <iframe
-            src= 'assets/resume/Pranesh_Velmurugan_Resume copy.pdf'
+            src= '/resume.pdf'
             className={styles.frame}>
             </iframe>
             <a 
-            href="assets/resume/Pranesh_Velmurugan_Resume copy.pdf" 
-            download="Pranesh_Velmurugan_Resume.pdf"
+            href="/resume.pdf" 
+            download="/Pranesh_Velmurugan_resume.pdf"
             className={styles.resumeButton}
             >Download My Resume</a>
         </div>

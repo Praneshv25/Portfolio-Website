@@ -1,13 +1,20 @@
 @import "../../vars.css";
 
 .navbar {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 61px;
+    /*padding-top: 61px;*/
     z-index: 2;
-    margin: 0 10%;
+    /*margin: 0 10%;*/
+    border-bottom: 1px solid #ffff;
+    background-color: var(--color-bg);
 }
 
 .title {
@@ -15,6 +22,10 @@
     font-weight: 600;
     text-decoration: none;
     color: var(--color-text);
+}
+
+.title:hover {
+    color: #ccc;
 }
 
 .menu {
@@ -26,6 +37,10 @@
     gap: 47px;
     list-style: none;
 }
+
+.menuItems li a:hover {
+    color: #ccc; 
+  }
 
 .menuOpen {
     display: flex;
@@ -61,6 +76,7 @@
     .menuBtn {
         display: block;
         cursor: pointer;
+        padding-bottom: 8px;
     }
 
     .menuItems {
@@ -69,7 +85,7 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(25, 55, 109);
+        background: #8b17b8;
         background: linear-gradient(
             0deg, 
             rgba(25,55,109), 0%,

@@ -7,6 +7,7 @@
     justify-content: space-between;
     margin-top: 49px;
     z-index: 1;
+    padding-top: 40px;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -56,6 +57,7 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    padding: 2px 20px;
 }
 
 @keyframes floating {
@@ -96,6 +98,11 @@
     background: rgba(188, 113, 37, 0.7);
     filter: blur(100px);
     z-index: 0;
+}
+
+.container a:hover {
+    background-color: #8b17b8; 
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 830px) {

@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+    scroll-margin-top: 55px;
     position: relative;
     background-color: rgba(12, 12, 12, 0.6);
     border-radius: 15px;
@@ -42,6 +43,11 @@
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25)
+}
+
+.content a:hover {
+    background-color: #8b17b8; 
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 830px) {

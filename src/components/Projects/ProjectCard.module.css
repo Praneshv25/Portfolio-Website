@@ -8,10 +8,15 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  box-sizing: border-box;
+  width: 310px;
+  height: 650px;
 }
 
 .image {
   margin-bottom: 26px;
+  width: 260px;
+  height: 180px;
 }
 
 .title {
@@ -58,4 +63,9 @@
   border-radius: 100px;
   background: #6d0ea3;
   padding: 1px 22px;
+}
+
+.links a:hover {
+  background-color: #8b17b8; 
+  transform: scale(1.05);
 }
