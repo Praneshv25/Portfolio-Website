@@ -34,7 +34,7 @@
     {
         "title": "FRC Rankings Predictor",
         "imageSrc": "projects/frc.jpg",
-        "description": "Designed for the FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings. Tool integrates data from The Blue Alliance REST API with a team's scouting data to provide accurate ranking predictions",
+        "description": "Designed for the FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings. Tool integrates data from The Blue Alliance REST API to provide accurate ranking predictions.",
         "skills": ["Java", "REST API"],
         "demo": "",
         "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"

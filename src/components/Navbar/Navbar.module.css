@@ -85,7 +85,7 @@
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: #8b17b8;
+        background: #3b0351;
         background: linear-gradient(
             0deg, 
             rgba(25,55,109), 0%,
@@ -98,5 +98,10 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+
+    .title {
+        max-width: calc(100% - 50px);
+        white-space: normal;
     }
 }

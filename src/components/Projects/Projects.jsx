@@ -9,7 +9,7 @@ export const Projects = () => {
   const scrollContainerRef = useRef(null);
 
   const scrollByWidth = (direction) => {
-    const scrollDistance = window.innerWidth * 0.6; 
+    const scrollDistance = window.innerWidth * 0.7; 
     scrollContainerRef.current.scrollBy({
       left: direction === "left" ? -scrollDistance : scrollDistance,
       behavior: "smooth",

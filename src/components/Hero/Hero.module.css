@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 60px;
     z-index: 1;
     padding-top: 40px;
     margin-left: 10%;
@@ -32,9 +32,9 @@
 }
 
 .description {
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--font-roboto);
-    margin-bottom: 52px;
+    margin-bottom: 5px;
 }
 
 .contact {
@@ -107,10 +107,12 @@
 
 @media screen and (max-width: 830px) {
     .container {
+        margin-top: 73px;
         flex-direction: column-reverse;
     }
 
     .content {
         align-items: center;
     }
+
 }

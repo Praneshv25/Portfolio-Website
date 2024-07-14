@@ -15,7 +15,7 @@ export const About = () => {
                     <img src={getImageUrl("about/MLIcon.png")} alt='Cursor Icon '/>
                     <div className={styles.aboutItemText}>
                         <h3>Machine Learning & Data Science Enthusiast</h3>
-                        <p>Interested in the fields of Machine Learning and Data Science. I enjoy exploring how data can be leveraged to drive insights and decision-making. My passion lies in developing intelligent systems that can learn from data and improve over time.</p>
+                        <p>Interested in the fields of Machine Learning and Data Science, I enjoy exploring how data can be leveraged to drive insights and decision-making. My passion lies in developing intelligent systems that can learn from data and improve over time.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
@@ -29,7 +29,7 @@ export const About = () => {
                     <img src={getImageUrl("about/cursorIcon.png")} alt='Cursor Icon'/>
                     <div className={styles.aboutItemText}>
                         <h3>Full Stack Developer</h3>
-                        <p>I am a versatile full stack developer with a solid foundation in both front-end and back-end technologies. I have worked on various projects using modern frameworks like React and Vite. My goal is to build responsive and optimized web applications that provide a seamless user experience.</p>
+                        <p>I am a versatile full stack developer with a solid foundation in both front-end and back-end technologies. I have worked on various projects using modern frameworks like React and Vite.</p>
                     </div>
                 </li>
             </ul>

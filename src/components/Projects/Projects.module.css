@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  scroll-margin-top: 90px;
+  scroll-margin-top: 110px;
   margin-top: 76px;
   color: var(--color-text);
   margin-left: 10%;
@@ -28,8 +28,8 @@
 }
 
 .scrollItem {
-  flex: 0 0 auto; /* Prevent items from shrinking */
-  scroll-snap-align: start; /* Optional: for snapping behavior */
+  flex: 0 0 auto; 
+  scroll-snap-align: start; 
 }
 
 .scrollButtons {
@@ -40,6 +40,7 @@
   width: 100%;
   justify-content: space-between;
   pointer-events: none;
+  z-index: 2;
 }
 
 .scrollButton {
@@ -49,9 +50,13 @@
   padding: 10px;
   cursor: pointer;
   pointer-events: all;
-  z-index: 10;
 }
 
 .scrollButton:hover {
   transform: scale(1.05);
 }
+
+.scrollItem:hover {
+  transform: scale(1.02);
+  z-index: 1;
+} 
