@@ -21,12 +21,13 @@
 
 .title {
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 1000;
+  font-style: oblique;
 }
 
 .description {
-  margin-top: 6px;
-  font-size: 25px;
+  margin-top: 10px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -53,6 +54,7 @@
   margin-top: 26px;
   display: flex;
   justify-content: space-around;
+  gap: 10px;
 }
 
 .link {

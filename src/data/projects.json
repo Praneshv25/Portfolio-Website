@@ -5,46 +5,46 @@
         "description": "This website was made to display my skills, projects, and contact information. Designed to work responsively.",
         "skills": ["React", "CSS", "Figma", "Vite"],
         "demo": "",
-        "source": ""
+        "source": "https://github.com/Praneshv25/Portfolio-Website"
     },
     {
         "title": "K-means Clustering",
         "imageSrc": "projects/Kmeans.png",
-        "description": "Custom K-means clustering algorithm created to analyze NFL receivers.",
+        "description": "Custom K-means clustering algorithm created from scratch to analyze the performance of NFL receivers. Goal was to identify clusters of receivers with similar performance metrics.",
         "skills": ["Jupyter Notebook", "Pandas", "Numpy"],
         "demo": "",
         "source": "https://github.com/Praneshv25/K-Means-Custering"
     },
     {
+        "title": "Emotional Oranges",
+        "imageSrc": "projects/emoOranges.jpg",
+        "description": "Generates user-specific spotify playlist based off mood of input image. Trained image classification model with a Kaggle dataset to recognize moods.",
+        "skills": ["React",  "Firebase","TensorFlow", "REST API"],
+        "demo": "https://the-emotional-oranges.web.app/",
+        "source": "https://devpost.com/software/the-emotional-oranges"
+    },
+    {
+        "title": "Wizarding Chess",
+        "imageSrc": "projects/chess.jpg",
+        "description": "Created a computer vision system, incorporating perspective transformation to map the chessboard and track the positions of 32 robotic chess pieces. Implemented algorithms for real-time object detection and tracking, enhancing the accuracy and responsiveness of the system.",
+        "skills": ["OpenCV"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/arc-wizard-chess"
+    },
+    {
         "title": "FRC Rankings Predictor",
         "imageSrc": "projects/frc.jpg",
-        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
+        "description": "Designed for the FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings. Tool integrates data from The Blue Alliance REST API with a team's scouting data to provide accurate ranking predictions",
         "skills": ["Java", "REST API"],
         "demo": "",
         "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
     },
     {
-        "title": "FRC Rankings Predictor",
-        "imageSrc": "projects/frc.jpg",
-        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
-        "skills": ["Java", "REST API"],
+        "title": "HandGesture-VolumeScaler",
+        "imageSrc": "projects/hand.jpeg",
+        "description": "Project developed to recognize specific hand gestures to raise and decrease a user's system volume.",
+        "skills": ["OpenCV", "Mediapipe"],
         "demo": "",
-        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
-    },
-    {
-        "title": "FRC Rankings Predictor",
-        "imageSrc": "projects/frc.jpg",
-        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
-        "skills": ["Java", "REST API"],
-        "demo": "",
-        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
-    },
-    {
-        "title": "FRC Rankings Predictor",
-        "imageSrc": "projects/frc.jpg",
-        "description": "Designed for the 2022 FIRST Robotics Competition game, Rapid React. Harnesses algorithms and data analysis to predict team rankings",
-        "skills": ["Java", "REST API"],
-        "demo": "",
-        "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
+        "source": "https://github.com/Praneshv25/HandGesture-VolumeScaler"
     }
 ]

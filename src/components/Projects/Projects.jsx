@@ -1,7 +1,9 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 export const Projects = () => {
   const scrollContainerRef = useRef(null);
@@ -19,10 +21,10 @@ export const Projects = () => {
       <h2 className={styles.title}>Projects</h2>
       <div className={styles.scrollButtons}>
         <button className={styles.scrollButton} onClick={() => scrollByWidth("left")}>
-          Left
+        <FontAwesomeIcon icon={faArrowLeft} />
         </button>
         <button className={styles.scrollButton} onClick={() => scrollByWidth("right")}>
-          Right
+        <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </div>
       <div className={styles.projects} ref={scrollContainerRef}>

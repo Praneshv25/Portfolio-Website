@@ -1,5 +1,3 @@
-import React from 'react'
-
 import styles from './About.module.css'
 import { getImageUrl } from '../../utils';
 
@@ -14,24 +12,24 @@ export const About = () => {
             />
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/cursorIcon.png")} alt='Cursor Icon '/>
+                    <img src={getImageUrl("about/MLIcon.png")} alt='Cursor Icon '/>
                     <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
-                        <p>I'm a frontend Developer with experience in building responsive sites</p>
+                        <h3>Machine Learning & Data Science Enthusiast</h3>
+                        <p>Interested in the fields of Machine Learning and Data Science. I enjoy exploring how data can be leveraged to drive insights and decision-making. My passion lies in developing intelligent systems that can learn from data and improve over time.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/serverIcon.png")} alt='Server Icon'/>
+                    <img src={getImageUrl("about/algorithm.png")} alt='Server Icon'/>
                     <div className={styles.aboutItemText}> 
-                        <h3>Backend Developer</h3>
-                        <p>I have experience developing fast and optimised APIs</p>
+                        <h3>Algorithms & Software Engineering</h3>
+                        <p>With a strong interest in algorithms and software engineering, I am committed to writing efficient and maintainable code. I enjoy solving complex problems and continuously learning about new algorithms and best practices in software development.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/cursorIcon.png")} alt='Cursor Icon'/>
                     <div className={styles.aboutItemText}>
-                    <h3>UI Designer</h3>
-                    <p>I have experience with UI Design</p>
+                        <h3>Full Stack Developer</h3>
+                        <p>I am a versatile full stack developer with a solid foundation in both front-end and back-end technologies. I have worked on various projects using modern frameworks like React and Vite. My goal is to build responsive and optimized web applications that provide a seamless user experience.</p>
                     </div>
                 </li>
             </ul>

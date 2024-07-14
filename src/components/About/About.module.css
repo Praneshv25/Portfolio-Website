@@ -34,6 +34,11 @@
     animation-timing-function: ease-in-out;
 }
 
+.aboutItem img {
+    width: 60px;
+    margin-right: 10px;
+}
+
 @keyframes floating {
     0% {
         transform: translate(0, 0px);
@@ -71,11 +76,13 @@
 }
 
 .aboutItem h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
+    font-style: oblique;
 }
 
 .aboutItem p {
+    padding-top: 10px;
     font-size: 25px;
 }
 
@@ -89,10 +96,6 @@
 
     .content {
         flex-direction: column;
-    }
-
-    .aboutImage {
-        display: none;
     }
 
     .aboutItems {
