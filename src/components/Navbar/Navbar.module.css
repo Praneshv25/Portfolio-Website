@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     /*padding-top: 61px;*/
-    z-index: 2;
+    z-index: 4;
     /*margin: 0 10%;*/
     border-bottom: 1px solid #ffff;
     background-color: var(--color-bg);
@@ -44,7 +44,7 @@
 
 .menuOpen {
     display: flex;
-    z-index: 1;
+    z-index: 3;
 }
 
 .menuBtn {
