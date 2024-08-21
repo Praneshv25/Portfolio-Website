@@ -40,6 +40,14 @@
         "source": "https://github.com/Praneshv25/FRC-Ranking-Point-Predictor"
     },
     {
+        "title": "AI Trading Bot",
+        "imageSrc": "projects/cashgraph.png",
+        "description": "This AI-driven trading bot uses sentiment analysis of financial news to make automated trading decisions. It aims to optimize investment returns through machine learning and real-time data.",
+        "skills": ["Sentiment Analysis"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/AI-Trading-Bot"
+    },
+    {
         "title": "HandGesture-VolumeScaler",
         "imageSrc": "projects/hand.jpeg",
         "description": "Project developed to recognize specific hand gestures to raise and decrease a user's system volume.",
