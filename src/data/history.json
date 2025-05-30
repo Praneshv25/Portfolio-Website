@@ -1,9 +1,30 @@
 [
     {
+        "role":"Software Development Engineer Intern",
+        "organization": "Amazon Web Services (AWS)",
+        "startDate": "May 2025",
+        "endDate": "Present",
+        "experiences": [],
+        "imageSrc": "history/aws.png"
+    },
+    {
+        "role":"Undergraduate Researcher - Robotics",
+        "organization":"Purdue",
+        "startDate": "January 2025",
+        "endDate": "Present",
+        "experiences": [
+            "Built a robotic cello bowing system using a UR5e arm, converting MIDI input into motion as part of Purdue’s AI for Music group.",
+            "Developed a real-time motion control pipeline for bowing execution on the UR5e.",
+            "Created a MuJoCo simulation matching the physical lab setup for seamless real-to-sim testing.",
+            "Implemented and tested imitation learning and PPO to train optimized bowing policies."
+            ],
+        "imageSrc": "history/Purdue.png"
+    },
+    {
         "role": "Software Development Engineer Intern",
         "organization": "NASA",
         "startDate": "June 2024",
-        "endDate": "Present",
+        "endDate": "August 2024",
         "experiences": ["Developed Python software to parse KML files and generate transition plans for the IceSAT-2 satellite",
         "Utilized libraries such as Shapely and FastKML to automate processes, reducing two months of manual work to seconds",
         "Enhanced data processing capabilities, resulting in a 95% reduction in manual data handling time"],

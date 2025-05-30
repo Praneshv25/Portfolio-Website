@@ -8,6 +8,14 @@
         "source": "https://github.com/Praneshv25/Portfolio-Website"
     },
     {
+        "title": "Robot Cello",
+        "imageSrc": "projects/bot.jpg",
+        "description": "Built a robotic cello bowing system with MIDI-driven UR5e control and reinforcement learning in Purdue’s AI for Music group.",
+        "skills": ["Mujoco", "RL", "Imitation learning", "PyTorch"],
+        "demo": "",
+        "source": "https://ai4musicians.org/"
+    },
+    {
         "title": "K-means Clustering",
         "imageSrc": "projects/Kmeans.png",
         "description": "Custom K-means clustering algorithm created from scratch to analyze the performance of NFL receivers. Goal was to identify clusters of receivers with similar performance metrics.",
@@ -24,7 +32,7 @@
         "source": "https://devpost.com/software/the-emotional-oranges"
     },
     {
-        "title": "Wizarding Chess",
+        "title": "Wizard's Chess",
         "imageSrc": "projects/chess.jpg",
         "description": "Created a computer vision system, incorporating perspective transformation to map the chessboard and track the positions of 32 robotic chess pieces. Implemented algorithms for real-time object detection and tracking, enhancing the accuracy and responsiveness of the system.",
         "skills": ["OpenCV"],

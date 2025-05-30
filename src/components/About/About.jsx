@@ -19,17 +19,17 @@ export const About = () => {
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/algorithm.png")} alt='Server Icon'/>
+                    <img src={getImageUrl("about/bot.png")} alt='Server Icon'/>
                     <div className={styles.aboutItemText}> 
-                        <h3>Algorithms & Software Engineering</h3>
-                        <p>With a strong interest in algorithms and software engineering, I am committed to writing efficient and maintainable code. I enjoy solving complex problems and continuously learning about new algorithms and best practices in software development.</p>
+                        <h3>Robotics & Intelligent Systems</h3>
+                        <p>Driven by a passion for robotics, I focus on building intelligent, reliable systems that bridge the gap between code and the physical world. I enjoy developing motion pipelines, working with real-time control, and integrating simulation with hardware to solve complex, interdisciplinary problems.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/CursorIcon.png")} alt='Cursor Icon'/>
                     <div className={styles.aboutItemText}>
                         <h3>Full Stack Developer</h3>
-                        <p>I am a versatile full stack developer with a solid foundation in both front-end and back-end technologies. I have worked on various projects using modern frameworks like React and Vite.</p>
+                        <p>I am a versatile full stack developer with a solid foundation in both front-end and back-end technologies. I have worked on various projects using modern frameworks like React.</p>
                     </div>
                 </li>
             </ul>
