@@ -1,13 +1,5 @@
 [
     {
-        "title": "Portfolio Website",
-        "imageSrc": "projects/portfolio.png",
-        "description": "This website was made to display my skills, projects, and contact information. Designed to work responsively.",
-        "skills": ["React", "CSS", "Figma", "Vite"],
-        "demo": "",
-        "source": "https://github.com/Praneshv25/Portfolio-Website"
-    },
-    {
         "title": "Robot Cello",
         "imageSrc": "projects/bot.jpg",
         "description": "Built a robotic cello bowing system with MIDI-driven UR5e control and reinforcement learning in Purdue’s AI for Music group.",
@@ -16,12 +8,10 @@
         "source": "https://ai4musicians.org/"
     },
     {
-        "title": "K-means Clustering",
-        "imageSrc": "projects/Kmeans.png",
-        "description": "Custom K-means clustering algorithm created from scratch to analyze the performance of NFL receivers. Goal was to identify clusters of receivers with similar performance metrics.",
-        "skills": ["Jupyter Notebook", "Pandas", "Numpy"],
-        "demo": "",
-        "source": "https://github.com/Praneshv25/K-Means-Custering"
+        "title": "AI Robot Assistant",
+        "imageSrc": "projects/myBot.jpg",
+        "description":"Built a voice- and vision-enabled robotic assistant with real-time object recognition, natural language scheduling via MCP server, memory storage with Vector DB, and responsive 3-DoF arm control using a fine-tuned Mistral 7B model.",
+        "skills": ["LoRA Fintuning", "MCP", "OpenCV"]
     },
     {
         "title": "Emotional Oranges",
@@ -30,6 +20,14 @@
         "skills": ["React",  "Firebase","TensorFlow", "REST API"],
         "demo": "https://the-emotional-oranges.web.app/",
         "source": "https://devpost.com/software/the-emotional-oranges"
+    },
+    {
+        "title": "K-means Clustering",
+        "imageSrc": "projects/Kmeans.png",
+        "description": "Custom K-means clustering algorithm created from scratch to analyze the performance of NFL receivers. Goal was to identify clusters of receivers with similar performance metrics.",
+        "skills": ["Jupyter Notebook", "Pandas", "Numpy"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/K-Means-Custering"
     },
     {
         "title": "Wizard's Chess",
@@ -62,5 +60,13 @@
         "skills": ["OpenCV", "Mediapipe"],
         "demo": "",
         "source": "https://github.com/Praneshv25/HandGesture-VolumeScaler"
+    },
+    {
+        "title": "Portfolio Website",
+        "imageSrc": "projects/portfolio.png",
+        "description": "This website was made to display my skills, projects, and contact information. Designed to work responsively.",
+        "skills": ["React", "CSS", "Figma", "Vite"],
+        "demo": "",
+        "source": "https://github.com/Praneshv25/Portfolio-Website"
     }
 ]
